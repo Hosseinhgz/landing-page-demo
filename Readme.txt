@@ -1,9 +1,4 @@
-
-Eduardo Murillo | Evermade
-Feb 21, 2022, 10:00 AM (2 days ago)
-to me
-
-Hi Hossein
+# Task Describtion
 
 So I was prepping the test for you, Im attaching a url with a PSD and a JPG in case you don’t have Photoshop or Gimp available.
 
