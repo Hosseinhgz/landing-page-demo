@@ -10,11 +10,11 @@
 .navbar {
   background-color: white;
   color: #740174;
-  height: 80px;
+  height: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 0.8rem;
   position: sticky;
   top: 0;
   z-index: 999;
@@ -24,7 +24,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80px;
+  height: 70px;
   max-width: 1500px;
 }
 
@@ -34,7 +34,7 @@
   cursor: pointer;
 }
 .navbar-logo img {
-  height: 75px;
+  height: 65px;
   margin-top: 5px;
 }
 
@@ -49,7 +49,7 @@
   grid-gap: 10px;
   list-style: none;
   text-align: center;
-  width: 60vw;
+  width: 80vw;
   justify-content: end;
   margin-right: 2rem;
 }
@@ -73,7 +73,7 @@
 }
 
 .fa-bars {
-  color: #fff;
+  color: #740174;
 }
 
 .nav-links-mobile {
@@ -94,7 +94,7 @@
     flex-direction: column;
     justify-content: flex-start;
     width: 100%;
-    height: 90vh;
+    height: 95vh;
     position: absolute;
     top: 80px;
     left: -100%;
@@ -174,7 +174,7 @@
   background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 90vh;
+  height: 95vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -212,7 +212,7 @@
 
 /* button styling **** START */
 :root {
-  --primary: #fff;
+  --primary: #740174;
 }
 
 .btn {
@@ -231,7 +231,7 @@
 
 .btn--outline {
   background-color: transparent;
-  color: #fff;
+  color: #740174;
   padding: 8px 20px;
   border: 1px solid var(--primary);
   transition: all 0.3s ease-out;
@@ -251,7 +251,7 @@
 .btn--medium:hover {
   transition: all 0.3s ease-out;
   background: #fff;
-  color: #242424;
+  color: #740174;
   transition: 250ms;
 }
 /* button styling **** END */
