@@ -5,38 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" type="text/css" rel="stylesheet">
-    <title>Liana Technology</title>
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>SUPER PARK</title>
 </head>
 <body>
   <header>
     <nav class='navbar'>
       <div class='navbar-container'>
-        <Link to="/" class="navbar-logo" onClick={closeMobileMenu}>
-          HGZ <i class='fab fa-typo3 '></i>
-        </Link>
+        <a href="/" class="navbar-logo" onClick={closeMobileMenu}>
+          <img src="/images/sprk-logo-white.jpg" alt="super park logo white">
+        </a>
         <div class='menu-icon' onClick={handleClick}>
-          <i class={click ? 'fas fa-times' : 'fas fa-bars'}></i>
+          <i class='fas fa-bars'></i>
+          <!-- <i class={click ? 'fas fa-times' : 'fas fa-bars'}></i> -->
         </div>
-        <ul class={click ? 'nav-menu active' : 'nav-menu'}>
+        <ul class='nav-menu'>
+        <!-- <ul class={click ? 'nav-menu active' : 'nav-menu'}> -->
+
           <li class='nav-item'>
-            <Link to="/" class='nav-links' onClick={closeMobileMenu}>
+            <a href="/" class='nav-links' onClick={closeMobileMenu}>
               Home
-              </Link>
+              </a>
           </li>
           <li class='nav-item'>
-            <Link to="/services" class='nav-links' onClick={closeMobileMenu}>
+            <a href="/services" class='nav-links' onClick={closeMobileMenu}>
               Services
-              </Link>
+              </a>
           </li>
           <li class='nav-item'>
-            <Link to="/products" class='nav-links' onClick={closeMobileMenu}>
+            <a href="/products" class='nav-links' onClick={closeMobileMenu}>
               Products
-              </Link>
+              </a>
           </li>
           <li class='nav-item' >
-            <Link to="/sign-up" class='nav-links' onClick={closeMobileMenu}>
+            <a href="/sign-up" class='nav-links' onClick={closeMobileMenu}>
               Sign Up
-              </Link>
+              </a>
           </li>
         </ul>
         <button class='btn--outline'>SIGN UP</button>
@@ -44,7 +49,17 @@
     </nav>
   </header>
   <main>
-  
+    <div class="main-container">
+      <div class="section-one">
+        <h1>Section 1</h1>
+      </div>
+      <div class="section-two">
+        <h1>Section 2</h1>
+      </div>
+      <div class="section-three">
+        <h1>Section 3</h1>
+      </div>
+    </div>
 
 
 
@@ -91,84 +106,68 @@
         <div class='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>About Us</h2>
-            <Link to='/sign-up'>How it works</Link>
-            <Link to='/'>Testimonials</Link>
-            <Link to='/'>Careers</Link>
-            <Link to='/'>Investors</Link>
-            <Link to='/'>Terms of Service</Link>
+            <a href='/sign-up'>How it works</a>
+            <a href='/'>Testimonials</a>
+            <a href='/'>Careers</a>
+            <a href='/'>Investors</a>
+            <a href='/'>Terms of Service</a>
           </div>
           <div class='footer-link-items'>
             <h2>Contact Us</h2>
-            <Link to='/'>Contact</Link>
-            <Link to='/'>Support</Link>
-            <Link to='/'>Destinations</Link>
-            <Link to='/'>Sponsorships</Link>
+            <a href='/'>Contact</a>
+            <a href='/'>Support</a>
+            <a href='/'>Destinations</a>
+            <a href='/'>Sponsorships</a>
           </div>
           <div class='footer-link-items'>
             <h2>Videos</h2>
-            <Link to='/'>Submit Video</Link>
-            <Link to='/'>Ambassadors</Link>
-            <Link to='/'>Agency</Link>
-            <Link to='/'>Influencer</Link>
+            <a href='/'>Submit Video</a>
+            <a href='/'>Ambassadors</a>
+            <a href='/'>Agency</a>
+            <a href='/'>Influencer</a>
           </div>
           <div class='footer-link-items'>
             <h2>Social Media</h2>
-            <Link to='/'>Instagram</Link>
-            <Link to='/'>Facebook</Link>
-            <Link to='/'>Youtube</Link>
-            <Link to='/'>Twitter</Link>
+            <a href='/'>Instagram</a>
+            <a href='/'>Facebook</a>
+            <a href='/'>Youtube</a>
+            <a href='/'>Twitter</a>
           </div>
         </div>
         <section class='social-media'>
           <div class='social-media-wrap'>
-            <div class='footer-logo'>
-              <Link to='/' class='social-logo'>
-                HGZ
-                <i class='fab fa-typo3' />
-              </Link>
-            </div>
-            <small class='website-rights'>HGZ © 2022</small>
+            <p class='website-rights'>HGZ © 2022</p>
             <div class='social-icons'>
-              <Link
-                class='social-icon-link facebook'
-                to='/'
-                target='_blank'
-                aria-label='Facebook'
+              <a
+                class='social-icon-link'
+                href='/'
               >
-                <i class='fab fa-facebook-f' />
-              </Link>
-              <Link
-                class='social-icon-link instagram'
-                to='/'
-                target='_blank'
-                aria-label='Instagram'
+                <i class='fab fa-facebook-f' ></i>
+              </a>
+              <a
+                class='social-icon-link'
+                href='/'
               >
-                <i class='fab fa-instagram' />
-              </Link>
-              <Link
-                class='social-icon-link youtube'
-                to='/'
-                target='_blank'
-                aria-label='Youtube'
+              <i class='fab fa-instagram' ></i>
+              </a>
+              <a
+                class='social-icon-link'
+                href='/'
               >
-                <i class='fab fa-youtube' />
-              </Link>
-              <Link
-                class='social-icon-link twitter'
-                to='/'
-                target='_blank'
-                aria-label='Twitter'
+              <i class='fab fa-youtube' ></i>
+              </a>
+              <a
+                class='social-icon-link'
+                href='/'
               >
-                <i class='fab fa-twitter' />
-              </Link>
-              <Link
-                class='social-icon-link twitter'
-                to='/'
-                target='_blank'
-                aria-label='LinkedIn'
+              <i class='fab fa-twitter' ></i>
+              </a>
+              <a
+                class='social-icon-link'
+                href='/'
               >
-                <i class='fab fa-linkedin' />
-              </Link>
+              <i class='fab fa-linkedin' ></i>
+              </a>
             </div>
           </div>
         </section>
