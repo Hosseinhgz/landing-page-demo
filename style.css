@@ -268,15 +268,102 @@
   background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   object-fit: contain;
+  padding-bottom: 40px;
 }
 /* Section-two Styling **** END */
+
+/* Cards styling *** START */
+
+.cards-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  font-family: Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 15px;
+  min-width: 300px;
+  max-width: 350px;
+  width: 100%;
+  background-color: #ffffff;
+  color: #2B2B2B;
+  text-align: left;
+  font-size: 16px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+}
+
+.card * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.card img {
+  max-width: 100%;
+  vertical-align: top;
+  position: relative;
+}
+
+.card figcaption {
+  padding-left: 20px;
+  padding-top: 30px;
+  padding-bottom: calc(25%);
+  background-color: #ffffff;
+}
+
+.card h2 {
+  font-family: 'Oswald';
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 24px;
+  margin: 20px 0;
+}
+
+.card h5 {
+  font-weight: 400;
+  font-size: 14px;
+  margin: 0;
+  text-transform: uppercase;
+  color: #888;
+  letter-spacing: 1px;
+}
+
+.card footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.065);
+  padding: 0 20px;
+  font-size: 13px;
+  line-height: 50px;
+  text-align: left;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+
+.card a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+/* Cards styling *** END */
+
+
 
 /* button styling **** START */
 :root {
