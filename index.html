@@ -7,6 +7,10 @@
     <link href="style.css" type="text/css" rel="stylesheet">
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Orbitron:wght@900&display=swap" rel="stylesheet">
+
     <title>SUPER PARK</title>
 </head>
 <body>
@@ -29,22 +33,21 @@
               </a>
           </li>
           <li class='nav-item'>
-            <a href="/services" class='nav-links' onClick={closeMobileMenu}>
+            <a href="/services" class='nav-links' >
               Services
               </a>
           </li>
           <li class='nav-item'>
-            <a href="/products" class='nav-links' onClick={closeMobileMenu}>
+            <a href="/products" class='nav-links' >
               Products
               </a>
           </li>
           <li class='nav-item' >
-            <a href="/sign-up" class='nav-links' onClick={closeMobileMenu}>
-              Sign Up
+            <a href="/contact" class='nav-links'>
+              Contact us
               </a>
           </li>
         </ul>
-        <button class='btn--outline'>SIGN UP</button>
       </div>
     </nav>
   </header>
@@ -63,7 +66,7 @@
             <button 
             class='btn--outline'
             >
-              WATCH TRAILER <i class='far fa-play-circle' ></i>
+              WATCH TRAILER<i class='far fa-play-circle' ></i>
             </button>
           </div>
         </div>
@@ -75,6 +78,9 @@
       <div class="section-two">
         <div class="video-container">
           <iframe width="800" height="450" src="https://www.youtube.com/embed/yP-v3ScPIYg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="yellow-hex">
+          <img src="/images/polygon.png" alt="Yellow polygon" >
         </div>
       </div>
 
@@ -144,7 +150,7 @@
     <div class='footer-container'>
       <section class='footer-subscription'>
         <p class='footer-subscription-heading'>
-          Join the newsletter to recieve our best deals
+          Join SUPERPARK newsletter to recieve the best offers
         </p>
         <p class='footer-subscription-text'>
           You can unsubscribe anytime you want
@@ -154,7 +160,7 @@
             <input class='footer-input' type="email" 
             name="email" 
             placeholder='Your email' />
-            <button class="btn--outline">Subscribe</button>
+            <button class="btn--primary">Subscribe</button>
           </form>
         </div>
       </section>
@@ -162,8 +168,8 @@
         <div class='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>About Us</h2>
-            <a href='/sign-up'>How it works</a>
-            <a href='/'>Testimonials</a>
+            <a href='/sign-up'>History</a>
+            <a href='/'>Inventor</a>
             <a href='/'>Careers</a>
             <a href='/'>Investors</a>
             <a href='/'>Terms of Service</a>
@@ -172,13 +178,13 @@
             <h2>Contact Us</h2>
             <a href='/'>Contact</a>
             <a href='/'>Support</a>
-            <a href='/'>Destinations</a>
-            <a href='/'>Sponsorships</a>
+            <a href='/'>Locations</a>
+            <a href='/'>Positions</a>
           </div>
           <div class='footer-link-items'>
             <h2>Videos</h2>
-            <a href='/'>Submit Video</a>
-            <a href='/'>Ambassadors</a>
+            <a href='/'>Videos</a>
+            <a href='/'>Services</a>
             <a href='/'>Agency</a>
             <a href='/'>Influencer</a>
           </div>
