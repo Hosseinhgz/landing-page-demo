@@ -1,17 +1,4 @@
-# Task Describtion
-
-So I was prepping the test for you, Im attaching a url with a PSD and a JPG in case you don’t have Photoshop or Gimp available.
-
-The idea would be to create that page (front-page.jpg), feel free to  come up with any ideas, and add your own touch if you consider it,  (animations / gimmicks / cool stuff that you find appropriate).
-
-This mainly is just frontend, so no need to create a WP installation for this or anything like that, for your reference this is based in https://superpark.fi/ in case you would want to pull any assets, check similar fonts or get any ideas.
-
-https://drive.google.com/file/d/1dYRmU26lHJZNYGKrqjM8rICQGj38S9dS/view?usp=sharing
-
-Let me know when you think you could have it ready ok?  also feel free to contact if something is not clear.
-
-After this, based on the test, we can discuss further in a next interview with a few more members of the team, to check things like culture fit, etc etc.
-
-How does it sound? Will be waiting for your reply,
-
-Have a nice start of the week!
+#Superpark example landing page
+This website is created with HTML, CSS, and Javascript.
+In this project, I have tried to do not to use any libraries or frameworks Like Bootstrap or React or etc and I have tried to write everything from scratch. I have also tried to create a fully responsive page that gives a suitable user experience in mobile phones and tablets besides the desktop version.
+IMPORTANT : This is only an example website and the contents are only used for demonstrating some designing features.
