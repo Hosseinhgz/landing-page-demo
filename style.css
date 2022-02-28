@@ -57,7 +57,7 @@
 
 .nav-menu {
   display: grid;
-  grid-template-columns: repeat(4, auto);
+  grid-template-columns: repeat(6, auto);
   grid-gap: 10px;
   list-style: none;
   text-align: center;
@@ -83,10 +83,6 @@
   transition: all 0.2s ease-out;
 }
 
-.fa-bars {
-  color: #740174;
-}
-
 .nav-links-mobile {
   display: none;
 }
@@ -103,6 +99,13 @@
   font-weight: 800;
   border-color: var(--secondcolor);
   background-color: var(--secondcolor);
+}
+
+.nav-menu > li > button{
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 120px;
+  height: 35px;
 }
 
 @keyframes navLinkFade {
@@ -123,7 +126,7 @@
     height: 90vh;
     background-color: var(--secondcolor);
     top: 80px;
-    width: 50%;
+    width: 60%;
     height: 95vh;
     display: flex;
     font-size: 22px;
@@ -191,7 +194,20 @@
   .nav-links-mobile:hover {
     background: #fff;
     color: #242424;
-    transition: 250ms;
+  }
+
+  .nav-menu > li > button{
+    margin-top: 40px;
+    margin-left: 0px;
+    width: 70%;
+    height: 48px;
+    transition: 0.5s;
+    font-size: 20px;
+  }
+  .nav-menu > li > button:hover{
+    background: var(--thirdcolor);
+    color: var(--primary);
+    font-weight: 800;
   }
 }
 
